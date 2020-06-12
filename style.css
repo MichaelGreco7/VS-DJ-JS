@@ -2,4 +2,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  height: 100%;
+  background-color: #fbfaf8;
+}
+
+.square-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  background-color: #b49fcc;
+  border: 2px solid #412234;
+  border-radius: 4px;
+  width: 50%;
+  height: 50%;
 }
